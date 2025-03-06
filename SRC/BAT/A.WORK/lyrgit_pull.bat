@@ -497,6 +497,9 @@ exit /b 0
 :ReSetColor
 %LIB_BAT%\LYRConsole.bat %*
 exit /b 0
+:ReSetColorCR
+%LIB_BAT%\LYRConsole.bat %*
+exit /b 0
 :WriteNOTSET
 %LIB_BAT%\LYRConsole.bat %*
 exit /b 0
