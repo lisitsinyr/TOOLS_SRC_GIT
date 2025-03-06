@@ -210,8 +210,9 @@ rem beginfunction
  
     call :SetColor !cTEXT!
     git push -u origin main >> !LOG_FULLFILENAME!
-    call :WriteCR
-    call :ReSetColorCR
+    rem call :WriteCR
+    rem call :ReSetColorCR
+    call :ReSetColor
     rem <nul set /p strTemp=!sRESET!
 
 

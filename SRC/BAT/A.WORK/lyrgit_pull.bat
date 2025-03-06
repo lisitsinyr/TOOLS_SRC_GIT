@@ -200,7 +200,7 @@ rem beginfunction
     call :WritePROCESS ...git pull
     call :SetColor !cTEXT!
     git pull
-    call :ReSetColor
+    call :ReSetColorCR
 
     exit /b 0
 rem endfunction
